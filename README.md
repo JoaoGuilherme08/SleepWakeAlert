@@ -1,23 +1,18 @@
-#SleepWake Alert
+# SleepWake Alert
 
-O projeto SleepWake Alert é um sistema inteligente que utiliza visão computacional e processamento de imagem para detectar quando uma pessoa está dormindo e emitir um alerta sonoro para acordá-la. O sistema é capaz de detectar a taxa de piscadas e o fechamento prolongado dos olhos, indicando quando uma pessoa está sonolenta ou dormindo.
+O SleepWake Alert é um projeto de inteligência artificial que utiliza visão computacional para detectar quando uma pessoa está dormindo e emitir um alerta sonoro para acordá-la.
 
-Requisitos
-Python 3.x
-Bibliotecas Python: numpy, dlib, opencv-python, pygame
-Instalação
-Clone o repositório do projeto:
+# Requisitos
+ • Python 3.x
+ • Bibliotecas Python: numpy, dlib, opencv-python, pygame
 
-git clone https://github.com/seu-usuario/sleepwake-alert.git
-Instale as bibliotecas Python necessárias:
+## Instalação
 
-pip install numpy dlib opencv-python pygame
+1. Clone o repositório:
+git clone https://github.com/JoaoGuilherme08/SleepWakeAlert.git
 
-**Uso**
+2. Instale as dependências:
+ pip install numpy dlib opencv-python pygame
+ 
 Para executar o algoritmo, execute o seguinte comando no diretório raiz do projeto:
-
-python sleepwake_alert.py
-
-O programa será iniciado e a webcam será ativada automaticamente. O sistema monitorará o rosto de todas as pessoas na imagem e emitirá um alerta sonoro caso detecte que uma pessoa está dormindo.
-
-O programa pode ser interrompido pressionando a tecla 'q' no teclado.
+  python SleepWakeAlert.py
